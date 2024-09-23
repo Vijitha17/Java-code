@@ -1,0 +1,38 @@
+String s= "janani";
+		int length = s.length();
+		System.out.println(length);
+		char charat = s.charAt(2);
+		System.out.println(charat);
+		int indexof = s.indexOf("a");
+		System.out.println(indexof);
+		int lio = s.lastIndexOf("a");
+		System.out.println(lio);
+		boolean empty = s.isEmpty();
+		System.out.println(empty);
+		boolean contain = s.contains("i");
+		System.out.println(contain);
+		String p = " janani ";
+		String trim=p.trim();
+		System.out.println(trim);
+		boolean sw=s.startsWith("ja");
+		System.out.println(sw);
+		boolean ew=s.endsWith("i");
+		System.out.println(ew);
+		String uc=s.toUpperCase();
+		System.out.println(uc);
+		String lc = s.toLowerCase();
+		System.out.println(lc);
+		boolean e=s.equals(p);
+		System.out.println(e);
+		boolean eic=s.equalsIgnoreCase(p);
+		System.out.println(eic);
+		String replace =s.replace("j", "h");
+		System.out.println(replace);
+		String ra = s.replaceAll(s, "janani");
+		System.out.println(ra);
+		String ss = s.substring(3);
+		System.out.println(ss);
+		String s1=s.substring(3,5);
+		System.out.println(s1);
+
+		
